@@ -9,7 +9,7 @@ SET(CMAKE_CXX_COMPILER mpicxx)
 SET(CMAKE_C_COMPILER  mpicc)
 set(CMAKE_C_STANDARD 99)
 
-add_executable(mympi_demo main.c helloFromProcess.c src/helloPro.c)
+add_executable(mympi_demo main.c src/helloFromProcess.c src/helloPro.c)
 
 # openMP 配置
 FIND_PACKAGE(OpenMP REQUIRED)
